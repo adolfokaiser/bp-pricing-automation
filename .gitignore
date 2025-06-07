@@ -1,0 +1,18 @@
+# Entornos virtuales
+.venv/
+env/
+__pycache__/
+
+# Archivos sensibles
+.env
+*.key
+*.cer
+*.xlsx
+
+# Carpeta de compilación
+dist/
+build/
+
+# Archivos temporales
+*.log
+*.tmp
