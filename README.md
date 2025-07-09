@@ -21,6 +21,13 @@ Automation of pricing workflows for BP service stations using Python, Selenium, 
 * **Excel Template Generator** (`Excels.py`):
   Creates a personalized Excel workbook per service station.
 
+* **National/BP Price Aggregator** (`merge_pricing_excels.py`):  
+  Waits for all `.xlsx` pricing files (6 for BP, 15 for national), combines them into a single Excel workbook, normalizes the column names, and sends the result via Outlook to a predefined recipient.
+
+* **CRE Price Scraper** (`cre_price_scraper.py`):  
+  Uses Selenium and 2Captcha to scrape official fuel prices from the CRE website for selected municipalities (BP or national), iterating page by page and exporting the complete dataset to Excel.
+  
+
 ---
 
 ## 📁 Repository Structure
@@ -32,6 +39,8 @@ bp-pricing-automation/
 ├── README.md
 ├── requirements.txt
 ├── Actualización de precios OPE.xlsx  # Input Excel (do NOT commit)
+├── merge_pricing_excels.py 
+├── cre_price_scraper.py 
 ├── data_extractor.py
 ├── data_Extractor2.py
 ├── email_extractor.py
@@ -117,7 +126,10 @@ OMIT_STATIONS=BP Taxqueña,BP Viveros,BP Ermita
    ```bash
    python gestor_folios.py
    ```
+4. **Run national/BP Excel merge and send email**
 
+   ```bash
+   python merge_pricing_excels.py bp
 ---
 
 ## 📦 Dependencies (`requirements.txt`)
@@ -135,6 +147,9 @@ python-dotenv==1.1.0
 webdriver-manager
 selenium
 pywin32
+send2trash
+requests
+urllib3
 ```
 
 ---
