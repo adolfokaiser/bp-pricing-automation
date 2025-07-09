@@ -30,6 +30,14 @@ Automation of pricing workflows for BP service stations using Python, Selenium, 
 
 ---
 
+## 📊 Power BI Dashboard – Prices by Brand
+
+This dashboard displays the average fuel prices by brand over time, with interactive filters by region, modality, and brand relevance.
+
+It was developed for the Pricing area at BP Mexico using Power BI Desktop. The dashboard helps monitor price trends, identify outliers, and make data-driven decisions.
+
+
+
 ## 📁 Repository Structure
 
 ```
