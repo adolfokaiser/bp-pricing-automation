@@ -36,6 +36,128 @@ This dashboard displays the average fuel prices by brand over time, with interac
 
 It was developed for the Pricing area at BP Mexico using Power BI Desktop. The dashboard helps monitor price trends, identify outliers, and make data-driven decisions.
 
+![Prices by Brand](assets/dashboard01_prices_by_brand.png)
+
+---
+
+## 📈 Power BI Dashboard – Market Overview (National Position)
+
+Shows monthly cross-section price averages by brand, with dynamic filters by region, market type, modality, and status.
+
+Built in Power BI to support national pricing strategy reviews and market positioning assessments.
+
+![Market Overview](assets/dashboard02_market_overview_national.png)
+
+---
+
+## 🧩 Power BI Dashboard – Prices by Brand (Sites)
+
+Displays individual site price evolution over time. Each line represents a specific site, allowing detailed tracking and outlier detection.
+
+Useful for identifying local pricing issues and evaluating site-level competitiveness.
+
+![Prices by Brand Sites](assets/dashboard03_prices_by_brand_sites.png)
+
+---
+
+## 🗺️ Power BI Dashboard – Max & Min Prices by Region
+
+Visualizes the number of stations within specific price ranges across Mexican regions. Helps understand regional price dispersion and extremes.
+
+Supports strategic pricing segmentation by geography.
+
+![Max Min Prices by Region](assets/dashboard04_max_min_prices_by_region.png)
+
+---
+
+## 📑 Power BI Dashboard – Max & Min Prices Table
+
+Tabular breakdown of station counts by price range on two different dates, including differences and most common price points.
+
+Used for price trend analysis and detecting shifts in market behavior.
+
+![Max Min Prices Table](assets/dashboard05_max_min_prices_table.png)
+
+---
+
+## 📊 Power BI Dashboard – Prices Distribution Table
+
+Shows the number of stations offering each exact price point, alongside a horizontal bar chart for easy visual comparison.
+
+Valuable for understanding price clustering and price point dominance.
+
+![Prices Distribution Table](assets/dashboard06_prices_distribution_table.png)
+
+---
+
+## 💰 Power BI Dashboard – Station Price vs Cost Table
+
+Compares final retail price against estimated costs per station, helping identify margin issues and inefficiencies.
+
+Critical for profitability and pricing optimization.
+
+![Station Price vs Cost Table](assets/dashboard07_station_price_cost_table.png)
+
+---
+
+## 🌍 Power BI Dashboard – Station Map Prices
+
+Interactive map showing price levels at each BP station nationwide, filterable by fuel type, modality, and brand relevance.
+
+Designed for geographic pricing strategy and anomaly detection.
+
+![Station Map Prices](assets/dashboard08_station_map_prices.png)
+
+---
+
+## 📉 Power BI Dashboard – Daily Street Margin (BP)
+
+Displays the daily margin between BP rack (TAR) and final street price for each station. Useful for margin monitoring.
+
+Allows the pricing team to quickly detect margin compression.
+
+![Daily Margin](assets/dashboard09_daily_street_margin_bp.png)
+
+---
+
+## 🛢️ Power BI Dashboard – PEMEX Rack Prices
+
+Shows historical PEMEX rack prices for Regular, Premium, and Diesel fuels, enabling historical trend analysis.
+
+Used as a base input for price strategy and cost estimations.
+
+![PEMEX Rack Prices](assets/dashboard10_pemex_rack_prices.png)
+
+---
+
+## 📐 Power BI Dashboard – Price Variance Comparison
+
+Compares the variance in pricing across selected sites versus BP's trend. Includes filters by site, region, and relevance.
+
+Designed to monitor compliance with pricing strategy.
+
+![Price Variance](assets/dashboard11_price_variance_comparison.png)
+
+---
+
+## 🌐 Power BI Dashboard – Benchmark Prices vs Exchange Rate
+
+Displays fuel price benchmarks alongside exchange rate trends, helping correlate international factors with local pricing.
+
+Helps inform strategic decisions in volatile markets.
+
+![Benchmark Prices Exchange](assets/dashboard12_benchmark_prices_exchange.png)
+
+---
+
+## ⚖️ Power BI Dashboard – Comparative Rack: PEMEX vs Ienova vs Itzoil
+
+Side-by-side comparison of rack prices between three suppliers, allowing better sourcing decisions and negotiation leverage.
+
+Highly useful for procurement and competitor analysis.
+
+![Comparative Rack](assets/dashboard13_comparative_rack_pemex_ienova_itzoil.png)
+
 
 
 ## 📁 Repository Structure
