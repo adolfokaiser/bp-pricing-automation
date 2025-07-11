@@ -43,6 +43,17 @@ Automation of pricing workflows for BP service stations using Python, Selenium, 
 
 ---
 
+## 🎥 Demo
+
+<p align="center">
+  <img src="assets/Demo_pricing_bot.gif" alt="Demo automation gif" width="700"/>
+</p>
+
+> ⏯️ Below is a full example of the automation workflow for a single station. The full process handles 40+ stations weekly.
+
+[▶ Watch full demo video (1 min 42 s)](assets/Demo_pricing_bot.mp4)
+
+
 ## 📋 Repository Structure
 
 ```
